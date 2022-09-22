@@ -14,6 +14,6 @@ class Obs < Formula
   end
   
   test do
-    assert_match "obs_websocket v5.0.0+6", shell_output("bin/obs version")
+    assert_match "obs_websocket v5.0.0+7", shell_output("bin/obs version")
   end
 end
