@@ -1,8 +1,8 @@
 class Obs < Formula
   desc "obs_websocket allows dart-based connections to the OBS (Open Broadcaster Software) plugin obs-websocket"
   homepage "https://github.com/faithoflifedev/easy_obs_websocket"
-  url "https://api.github.com/repos/faithoflifedev/obs_websocket/tarball/5.0.0+4"
-  sha256 "34ef98978caa3b0fd47c3b1ddd63a3167fb00921802998f7d25465c00754015c"
+  url "https://api.github.com/repos/faithoflifedev/obs_websocket/tarball/v5.0.0+5"
+  sha256 "2334d37501e4286460ce77e1e76958f9cff465785da6d4ba8558617ea0f293a2"
   license "MIT"
   
   depends_on "dart-lang/dart/dart" => :build
@@ -14,6 +14,6 @@ class Obs < Formula
   end
   
   test do
-    assert_match "obs_websocket v5.0.0+5", shell_output("bin/obs version")
+    assert_match "obs_websocket v5.0.0+6", shell_output("bin/obs version")
   end
 end
