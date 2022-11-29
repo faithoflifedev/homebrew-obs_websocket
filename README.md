@@ -1,2 +1,2 @@
 # homebrew-obs_websocket
- A tap for the obs_websocket v5.0.0+10 Dart package
+ A tap for the obs_websocket v5.0.0+13 Dart package
